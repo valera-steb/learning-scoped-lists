@@ -1,0 +1,22 @@
+{
+  "name": "learning-scoped-lists",
+  "version": "0.0.0",
+  "homepage": "https://github.com/valera-steb/learning-scoped-lists",
+  "authors": [
+    "valeriy.tereshenko <tereshenko.valeriy.v@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "di-lite": "~0.3.3",
+    "jasmine": "~2.3.4"
+  }
+}

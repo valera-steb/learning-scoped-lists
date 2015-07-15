@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="scopedListsApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+
+    <!-- app -->
+    <script src="app.js"></script>
+
+    <script src="directives/sectionsDirective.js"></script>
+    <!-- /app -->
+</head>
+<body>
+
+<div section-placeholder="header-navigation"></div>
+<br/>
+
+<div ng-view></div>
+
+</body>
+</html>
