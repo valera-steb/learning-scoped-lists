@@ -1,0 +1,26 @@
+.demo .list {
+    margin-bottom: 13px;
+}
+
+.demo .list > div:first-child {
+    overflow-y: auto;
+    overflow-x: visible;
+    height: 100%;
+
+    border: solid black 1px;
+}
+
+.demo .column {
+    width: 200px;
+    max-width: 300px;
+    min-width: 100px;
+    margin-left: 14px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*
+.demo .rg-bottom {
+     margin-bottom: 0px;
+ }*/

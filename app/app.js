@@ -1,7 +1,9 @@
 /**
  * Created on 15.07.2015.
  */
-var app = angular.module('scopedListsApp', ['ngRoute', 'customSections']);
+var app = angular.module('scopedListsApp', [
+    'ngRoute', 'customSections', 'angularResizable', 'angularResizable'
+]);
 
 app.config(function($routeProvider){
     $routeProvider
