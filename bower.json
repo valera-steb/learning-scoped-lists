@@ -18,7 +18,8 @@
     "angular-route": "~1.4.3",
     "di-lite": "~0.3.3",
     "jasmine": "~2.3.4",
-    "angular-resizable": "~1.2.0"
+    "angular-resizable": "~1.2.0",
+    "ng-sortable": "~1.2.2"
   },
   "resolutions": {
     "angular": "1.4.3"

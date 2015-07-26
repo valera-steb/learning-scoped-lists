@@ -1,0 +1,51 @@
+<script section-item="header-navigation" type="text/ng-template" style="display: none">
+    <div ng-include="'demo/navigation.html'"></div>
+</script>
+
+<div class="sortable-test-page">
+    <div class="control">
+        <h3> control</h3>
+
+        <ul>
+            <li>Копировать <input type="checkbox" ng-model="makeCopy"></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>list 1</h4>
+
+        <ul as-sortable="dragControlListeners" ng-model="items">
+            <li ng-repeat="item in items" as-sortable-item>
+                <div as-sortable-item-handle>
+                    {{item}}
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>list 2</h4>
+
+        <ul as-sortable="dragControlListeners" ng-model="items2">
+            <li ng-repeat="item in items2" as-sortable-item>
+                <div as-sortable-item-handle>
+                    {{item}}
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        <div>
+            <h4>текущий вывод</h4>
+            .можно реализовать копирование.
+            .легко происходит перетягивание.
+
+            .для основной программы нужны:
+            ..логика проверки разрешения на перетягивание - возможно кэширующая результат.
+            ..логика по копированию - в общем-то проста...
+            ..по началу перетягивания можно вставить пустую затычку на место откуда.
+
+            кратко:
+            .инструмент доробатывая который можно получить желаемое поведение.
+        </div>

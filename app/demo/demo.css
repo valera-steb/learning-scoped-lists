@@ -1,0 +1,16 @@
+.sortable-test-page > div {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.sortable-test-page .control {
+  display: block;
+}
+.sortable-test-page .control li {
+  display: inline;
+}
+.sortable-test-page li {
+  min-width: 70px;
+  border: black 1px solid;
+  text-align: center;
+}
