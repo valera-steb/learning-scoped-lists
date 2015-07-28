@@ -22,7 +22,7 @@
 
                 // Compile the template and bind it to the current scope, and inject it into the placeholder
                 targetElement.html(element.html());
-                $compile(targetElement)(scope);
+                $compile(targetElement.children())(scope);
             }
         };
     });
