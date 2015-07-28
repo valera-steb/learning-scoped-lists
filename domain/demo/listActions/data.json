@@ -1,0 +1,110 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "data": {
+        "text": "item 1"
+      }
+    },
+    {
+      "id": 1,
+      "data": {
+        "text": "item 2"
+      }
+    },
+    {
+      "id": 2,
+      "data": {
+        "text": "item 3"
+      }
+    },
+    {
+      "id": 3,
+      "data": {
+        "text": "item 4"
+      }
+    },
+    {
+      "id": 4,
+      "data": {
+        "text": "item 5"
+      }
+    },
+    {
+      "id": 5,
+      "data": {
+        "text": "item 6"
+      }
+    }
+  ],
+  "lists": [
+    {
+      "id": 0,
+      "name": "list 1"
+    },
+    {
+      "id": 0,
+      "name": "list 2"
+    },
+    {
+      "id": 0,
+      "name": "list 2"
+    }
+  ],
+  "listItems": [
+    {
+      "id": 0,
+      "item_id": 0,
+      "list_id": 0,
+      "params": {}
+    },
+    {
+      "id": 1,
+      "item_id": 1,
+      "list_id": 0,
+      "params": {}
+    },
+    {
+      "id": 2,
+      "item_id": 3,
+      "list_id": 0,
+      "params": {}
+    },
+    {
+      "id": 3,
+      "item_id": 3,
+      "list_id": 1,
+      "params": {}
+    },
+    {
+      "id": 4,
+      "item_id": 4,
+      "list_id": 1,
+      "params": {}
+    },
+    {
+      "id": 5,
+      "item_id": 5,
+      "list_id": 1,
+      "params": {}
+    },
+    {
+      "id": 6,
+      "item_id": 1,
+      "list_id": 2,
+      "params": {}
+    },
+    {
+      "id": 7,
+      "item_id": 3,
+      "list_id": 2,
+      "params": {}
+    },
+    {
+      "id": 8,
+      "item_id": 5,
+      "list_id": 2,
+      "params": {}
+    }
+  ]
+}

@@ -14,3 +14,10 @@
   border: black 1px solid;
   text-align: center;
 }
+.list-actions-test-page .control-panel {
+  margin: 10px;
+}
+.list-actions-test-page .lists-area > div {
+  display: inline-block;
+  vertical-align: top;
+}

@@ -21,6 +21,10 @@ app.config(function($routeProvider){
             controller: 'demoSortableController',
             templateUrl: 'demo/libTests/sortable.html'
         })
+        .when('/demo/listActions', {
+            controller: 'demoListActions',
+            templateUrl: 'demo/listActions/view.html'
+        })
 
         // demo
         //---------------------------------------
